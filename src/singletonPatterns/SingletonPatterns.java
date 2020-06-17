@@ -1,4 +1,4 @@
-package patterns;
+package singletonPatterns;
 
 public class SingletonPatterns {
 
@@ -17,7 +17,7 @@ public class SingletonPatterns {
 		return INSTANCE;
 	}
 
-	void singletonWelcomeMessage() {
+	public void singletonWelcomeMessage() {
 		System.out.println("Welcome Singleton Patterns");
 	}
 
